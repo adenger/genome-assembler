@@ -1,24 +1,28 @@
-## Compilation Linux
+## Linux
+
+#### Compilation
 
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 
-## Requirements Linux
+#### Requirements
 
 cmake 3.7+
 gcc 5.4+
 make
 
-## Compilation Windows
+## Windows
+
+#### Compilation
 
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 open .sln file in visual studio
 
-## Requirements Windows
+#### Requirements
 
 cmake 3.7+
 visual studio 17
