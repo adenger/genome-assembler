@@ -46,10 +46,6 @@ void reverse_complement(InputIterator first, InputIterator last) {
     }
 }
 
-/**
- * Andreas Denger
- * 2540187
- */
 int main(int argc, char **argv) {
     if (argc != 5) {
         cerr << "wrong number of arguments (5 required)" << endl;
